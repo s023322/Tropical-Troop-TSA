@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Alphakind";
+  src: url(Alphakind.ttf);
+}
+
+html, body {
+  color: #97DB4F;
+  background-color: #233329;
+  font-family: "Alphakind";
+  font-size: 32px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #97DB4F;
+  text-decoration: none;
+}
+
+#content {
+  padding: 8px;
+  transition: margin-left 0.5s;
+  overflow: hidden;
+  width: 100%;
+}
+
+.page .slide {
+  color: #97DB4F;
+  font-size: 24px;
+}
+p {
+  margin: 8px 128px;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.small-text {
+  text-align: center;
+  font-size: 8px;
+  color: white;
+}
+
+.slide a {
+  color: white;
+  font-size: 32px;
+}
+
+.nav .close {
+  position:absolute;
+  top: 16px;
+  margin-left: 16px;
+  font-size: 32px;
+  color: white;
+}
+
+.nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2E0E02;
+  overflow-x: hidden;
+  padding-top: 84px;
+  transition-duration: 0.5s;
+}
+
+.nav a.item {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 8px;
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+  background-color: #2E0E02;
+  border-top: 2px solid white;
+  white-space: nowrap;
+}
+
+.nav .tsa {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 8px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+
+.nav a.item:hover {
+  font-size: 36px;
+  color: white;
+  background-color: #803500;
+  transition-duration: 0.125s;
+}
+
+.nav .bottom {
+  border-bottom: 2px solid white;
+}
+
+.page .title {
+  white-space: nowrap;
+  color: #97DB4F;
+}
+
+.nav .slide-out {
+  position: absolute;
+  top: 19px;
+  left: 56px;
+  white-space: nowrap;
+  color: #97DB4F;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tropical Troop Show - Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script>
+
+    function openSlideMenu() {
+      document.getElementById("menu").style.width = "384px";
+
+      document.getElementById("menu").style.borderRight = "2px solid white"
+    }
+
+    function closeSlideMenu() {
+      document.getElementById("menu").style.width = "0px";
+      document.getElementById("menu").style.borderRight = "0"
+    }
+  </script>
+
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <div id="content" class="page">
+    <span class="slide">
+      <a href="#" class="page-top" onclick="openSlideMenu()"> ☰ </a>
+      <a class="title">The Tropical Troop</a>
+      <img id="image" src="pexels-molly-champion.jpg">
+      <p class="small-text">Photo By Molly Champion</p>
+      <p class="paragraph">Liam, Noah, Oliver, and Elijah are exploring a dense tropical rainforest.
+        They are trying to
+        find animals, butterflies, frogs, birds, plants, and more! They face obstacles, but they find and learn about
+        new animals
+        every single episode!</p>
+    </span>
+
+    <div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()"> 🗙 </a>
+      <a class="slide-out">The Tropical Troop</a>
+      <a class="top"></a>
+      <a href="#" class="item">⚙️ Settings</a>
+      <a href="#" class="item">📺 Episodes</a>
+      <a href="#" class="item">🕹️ Learning Games</a>
+      <a href="#" class="item bottom">📝 About</a>
+      <a class="tsa">Made for</a>
+      <a class="tsa">TSA Website Design 2022-23</a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
